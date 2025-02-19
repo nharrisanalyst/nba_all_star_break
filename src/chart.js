@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 export async function createChart(element){
-    const data = await d3.csv('/data/nba_check_in.csv', (d)=>{
+    const data = await d3.csv('data/nba_check_in.csv', (d)=>{
         return {
            rk: Number(d.RK),
            team:d.TEAM,
@@ -125,7 +125,7 @@ mainG.append('g').append('line')
 
     mainG.append('g').selectAll('.nba-image').data(data).join('svg:image')
                                             .attr('class', 'nba-image')
-                                            .attr("xlink:href", d=>`/images/nba_logos/${d.team}.svg`)
+                                            .attr("xlink:href", d=>`images/nba_logos/${d.team}.svg`)
                                             .attr("x", d=> xScale(d.def_eff)- imageWidth/2)
                                             .attr("y", d=> yScale(d.off_eff) - imageWidth/2)
                                             .attr("width", imageWidth)
