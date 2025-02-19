@@ -10,7 +10,7 @@
   </div>
   <div id="subTitle">
    Now that the NBA is at the AllStar break the major trends are now established. The OKC Thunder have a defense that is in  a class of it's own.
-   The Cavs have the best offense in the league, and the Washington Wizards hold the double trophy of worst offense and worst defense.
+   The Cavs have the best offense in the league, and the Washington Wizards hold the double trophy of worst offense and worst defense. Explore more trends below.
   </div>
   <div id="authorTitle">
     By: <a id="me" href="https://bsky.app/profile/truesync.bsky.social">Nathan Harris</a>     
